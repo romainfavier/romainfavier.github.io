@@ -1,10 +1,32 @@
-<html>
+---
+
+---
+<!doctype html>
+<html class="no-js" lang="fr">
 <head>
-<title> Bonjour tout le monde </title>
+		<meta charset="UTF-8">
+		<title>{{ site.titre }}</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
-<h1>Bonjour tout le monde</h1>
-<h2>Bienvenue sur mon super site de merde</h2>
+	
+	<header id="header" role="banner" class="line pam txtcenter">
+		<h1>---CMS---</h1>
+	</header>
+	<div id="main" role="main" class="flex-container">
+		<div class="w20 pam aside">
+			<nav id="navigation" role="navigation">
+			{{ site.desc }}	
+			</nav>
+		</div>
+		<div class="flex-item-fluid pam content">
+
+		</div>
+		
+	</div>
+	<footer id="footer" role="contentinfo" class="line pam txtcenter">
+		
+	</footer>
 
 </body>
 </html>
