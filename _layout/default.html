@@ -1,0 +1,27 @@
+<html>
+	<head>
+		<title>Titre du site</title>
+
+	</head>
+
+
+
+	<body>
+		<!--<header>
+		<h1>{{page.titre}} </h1>
+		<p>{{site.description}}<p>
+		</header>-->
+		{% include header.html %}
+		<main>
+		<p>{{site.p}}</p>
+		<ul>
+		{{content}}
+		
+    	
+		</ul>		
+		</main>
+		<footer>
+		{% include footer.html %}
+		<footer>
+	</body>
+</html>
